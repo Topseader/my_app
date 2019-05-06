@@ -2,8 +2,12 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 h1 {
-  font-size: 46px;
-  font-family: Arial, sans-serif;
+  font-size: 40px;
+  font-family: Calibri, sans-serif; 
+  margin-top: -5px;
+  text-align: center;
+  border-bottom: solid;
+  border-bottom-style: 5px;
 }
 
 p {
