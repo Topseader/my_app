@@ -1,4 +1,10 @@
 h1 Welcome to the index page, buddy!
-p 
-  |
-    At some moment there will be a cool application...
+= form_with do |f|
+  div class="field"
+    = f.label :root_note
+    br
+
+
+
+  = submit_tag "GO!"
+end
