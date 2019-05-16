@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  root: C
+  mode: 0
+  sharp: 0
+  scale: C D E F G A B
+  chrods: C Dm Em F G Am Bdim
+
+two:
+  root: Bb
+  mode: 0
+  sharp: -1
+  scale: Bb C D Eb F G A
+  chrods: Bb Cm Dm Eb F Gm Adim

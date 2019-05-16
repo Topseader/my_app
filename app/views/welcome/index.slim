@@ -1,7 +1,7 @@
 header class="site-header"
   h1 Welcome to the index page, buddy!
 
-div class="container"
+/div class="container"
   | This page wiil remind you about everything what you want to make on this project.
   ul#selector
     li Forms;
@@ -9,3 +9,11 @@ div class="container"
     li Working ApplicationRecord model;
     li Controller;
     li Styles, background, header, etc.
+
+= form_for @scale, url: welcome_index_path do |f|
+  p 
+    | Select root
+    br
+    - scales_array = Scale.all.map { |scale| [scale.root, scale.id] }.uniq
+    = select(:scale, :id, scales_array)
+  = f.submit

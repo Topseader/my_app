@@ -1,3 +1,2 @@
-class Scale < ApplicationRecord
-  attr_accessor :id, :root, :mode, :scale, :chrords
+class Scale < ActiveRecord::Base
 end
